@@ -30,7 +30,7 @@ In this project I will be walking you through analyzing the problem from collect
 ## Results - 
 +  For Hypothesis 1, The p-value is less than 0.05, confirming that that CHAS and MEDV are correlated. The estimate calculated shows, Median value of owner-occupied homes increases if the house’s tract bounds the river.
 +  For Hypothesis 2, The p-value is less than 0.05, indicating that RAD and MEDV are correlated, but the estimate calculated shows, that median value of the owner owned homes decreases because of the radial highway accessability.
-    +  The Linear Regression conducted to study the influence of various relevant factors on MEDV gives us following insights:
+  +  The Linear Regression conducted to study the influence of various relevant factors on MEDV gives us following insights:
     +  CRIM(per capita crime by town), 
     +  NOX(Nitric oxide concentration), 
     +  DIS(weighted distance to five employment centers), 
