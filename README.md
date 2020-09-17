@@ -28,9 +28,18 @@ There are 14 attributes in each case of the dataset. They are:
 In this project I will be walking you through analyzing the problem from collecting data, importing it to a Jupyter notebook, looking for promising attributes, finding out correlations, plotting graphs, creating a pipeline, dealing with missing values and much more. At the end we present the problem to the real estates company who will use the model for predicting house prices given a set of features.
 
 ## Results - 
-For Hypothesis 1, The p-value is less than 0.05, confirming that that CHAS and MEDV are correlated. The estimate calculated shows, Median value of owner-occupied homes increases if the house’s tract bounds the river.
-For Hypothesis 2, The p-value is less than 0.05, indicating that RAD and MEDV are correlated, but the estimate calculated shows, that median value of the owner owned homes decreases because of the radial highway accessability.
-The Linear Regression conducted to study the influence of various relevant factors on MEDV gives us following insights:
-CRIM(per capita crime by town), NOX(Nitric oxide concentration), DIS(weighted distance to five employment centers), TAX(full-value property-tax per 10000 dollars), PTRATIO(pupil-teacher ratio per town) and LSTAT(lower status of the population) have a negative effect on the MEDV.
-INDUS(proportion of non-retail businesses per town), AGE(proportion of owner-occupied units built prior to 1940) doesn’t influence MEDV.
-ZN(proportion of residential land zoned for lots over 25,000 sq.ft.) and CHAS(Charles River Dummy Variable), RM(Average rooms per dwelling), RAD(index of accessibility to radial highways) influence MEDV positively.
++  For Hypothesis 1, The p-value is less than 0.05, confirming that that CHAS and MEDV are correlated. The estimate calculated shows, Median value of owner-occupied homes increases if the house’s tract bounds the river.
++  For Hypothesis 2, The p-value is less than 0.05, indicating that RAD and MEDV are correlated, but the estimate calculated shows, that median value of the owner owned homes decreases because of the radial highway accessability.
+    +  The Linear Regression conducted to study the influence of various relevant factors on MEDV gives us following insights:
+    +  CRIM(per capita crime by town), 
+    +  NOX(Nitric oxide concentration), 
+    +  DIS(weighted distance to five employment centers), 
+    +  TAX(full-value property-tax per 10000 dollars), 
+    +  PTRATIO(pupil-teacher ratio per town)  
+    +  LSTAT(lower status of the population) have a negative effect on the MEDV.
+    +  INDUS(proportion of non-retail businesses per town), 
+    +  AGE(proportion of owner-occupied units built prior to 1940) doesn’t influence MEDV.
+    +  ZN(proportion of residential land zoned for lots over 25,000 sq.ft.)  
+    +  CHAS(Charles River Dummy Variable), 
+    +  RM(Average rooms per dwelling), 
+    +  RAD(index of accessibility to radial highways) influence MEDV positively.
